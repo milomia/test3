@@ -64,7 +64,6 @@ def exec_order_sql(sqlStr,sdate):
     end = end_date.isoformat().split('T')
     end = end[0]
     try:
-        breakpoint()
         db_path=os.path.join(basedir, 'suade.db')
         conn = sqlite3.connect(db_path)
         sql= f"from orders inner join orderline on orders.order_id = orderline.order_id and created_at BETWEEN '{start}' and '{end}'"
