@@ -5,4 +5,5 @@ conflict
 more changes
 from another branch
 change readme
+this has changed but not detected 
 push master
