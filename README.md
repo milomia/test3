@@ -3,3 +3,6 @@ how many times do i have to repeat
 create merge conflict
 conflict
 more changes
+from another branch
+change readme
+push master
