@@ -1,3 +1,4 @@
+# comment for calculator class
 class Calc:
     def add(self,a,b):
         return a + b
