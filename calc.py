@@ -10,6 +10,7 @@ class Calc:
         return a * b
 
     def div(self,a,b):
+        # protect div by zero
         if b==0
           return 0
         return a / b
