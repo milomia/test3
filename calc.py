@@ -10,27 +10,9 @@ class Calc:
         return a * b
 
     def div(self,a,b):
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         if b==0
-=======
         # protect div by zero
         if (b == 0):
->>>>>>> 40be898... tidy up plus mod
-=======
-        # protect div by zero
-        if (b == 0):
->>>>>>> 40be898... tidy up plus mod
-=======
-        # protect div by zero
-        if (b == 0):
->>>>>>> 40be898... tidy up plus mod
-=======
-        # protect div by zero
-        if (b == 0):
->>>>>>> 40be898... tidy up plus mod
           return 0
         return a / b
 
