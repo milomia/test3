@@ -12,6 +12,10 @@ class Calc:
 
     def div(self,a,b):
         # protect div by zero
-        if b==0
+        if (b == 0):
           return 0
         return a / b
+
+    def mod(self,a,b):
+        return a % b
+        
