@@ -10,12 +10,17 @@ class Calc:
     def mult(self,a,b):
         return a * b
 
+    def idiv(self,a,b):
+        # protect div by zero
+        if (b == 0):
+          return 0
+        return int(a / b)
+
+    def mod(self,a,b):
+        return a % b
+        
     def div(self,a,b):
         # protect div by zero
         if (b == 0):
           return 0
         return a / b
-
-    def mod(self,a,b):
-        return a % b
-        
